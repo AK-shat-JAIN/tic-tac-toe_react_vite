@@ -1,14 +1,12 @@
 import Icon from '../icon/Icon'
 import './Card.css'
 
-function Card({ val, onChoose, index }){
-
-    const filled = (val)?true:false;
+function Card({ winner, val, onChoose, index }){
 
     return (
         <>
-            <div className='box' onClick={()=>onChoose(index)}>
-                <Icon filled={filled} val={val}/>
+            <div className='box' onClick={()=> winner=="" && val=="" && onChoose(index)}>
+                <Icon val={val}/>
             </div>
         </>
     )

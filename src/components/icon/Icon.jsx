@@ -1,19 +1,19 @@
 import { FaRegCircle, FaTimes, FaPen } from 'react-icons/fa'
 import './Icon.css'
 
-function Icon({ filled, val }){
+function Icon({ val }){
     return (
         <>
             <>
                 {   
-                    filled && (val=="X") && (
+                    (val=="X") && (
                         <FaTimes className='myicon' />
                     )
                 }
             </>
             <>
                 {   
-                    filled && (val=="O") && (
+                    (val=="O") && (
                         <FaRegCircle className='myicon' />
                     )
                 }
