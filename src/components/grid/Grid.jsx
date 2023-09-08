@@ -40,6 +40,7 @@ function Grid({numOfCards}){
                                     <Card key={idx} winner={winner} onChoose={play} index={idx} val={ele}/>
                                 )}
                             </div>
+                            <button className="reset" onClick={reset}>Play Again</button>
                         </>
                     )
                 }
