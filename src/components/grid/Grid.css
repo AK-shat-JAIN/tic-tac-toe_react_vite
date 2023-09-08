@@ -1,0 +1,14 @@
+
+.indicator{
+    font-size: 52px;
+    text-align: center;
+}
+
+.board{
+    width: 520px;
+    height:520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

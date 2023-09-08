@@ -1,4 +1,16 @@
+:root{
+  --primary: #001756;
+}
+
+*{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 body{
-  background-color: black;
+  height: 100vh;
+  background-color: rgb(0, 118, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
